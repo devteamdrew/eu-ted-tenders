@@ -1,0 +1,10 @@
+{
+  "stages": [
+    "tender"
+  ],
+  "cpvPrefixes": [
+    "72"
+  ],
+  "lastDays": 7,
+  "maxItems": 20
+}
