@@ -2,7 +2,7 @@
 
 EU tenders scraper for TED (Tenders Electronic Daily), the EU's official procurement journal: every new public tender, prior information notice and contract award across the EU/EEA. Filter by country, CPV code, keyword, value and deadline. Official TED Search API, no key. Pay per result.
 
-**[Run it on Apify →](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=hero)** (pay per result, free Apify account to start)
+**[Run it on Apify →](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)** (pay per result, free Apify account to start)
 
 
 **EU Tenders Scraper (TED)** by Moxie: fast, reliable and polite, built on official/public data sources.
@@ -30,7 +30,7 @@ The official TED Search API v3 (`api.ted.europa.eu`) run by the Publications Off
 
 ## Quick start
 
-1. Create a free account at [apify.com](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=quickstart) and copy your API token.
+1. Create a free account at [apify.com](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders) and copy your API token.
 2. `export APIFY_TOKEN=...`
 3. Run one of the examples:
 
@@ -55,52 +55,31 @@ Example input ([examples/input.json](examples/input.json)):
 }
 ```
 
-## FAQ
-
-**What is TED?**
-Tenders Electronic Daily is the online version of the Supplement to the Official Journal of the EU. Public buyers in the EU/EEA must publish tenders above the EU thresholds there, so it is the single best source for European public contracts.
-
-**Do I need an account or API key?**
-No. The TED Search API is open and anonymous.
-
-**Can I use the data commercially?**
-Yes. TED notices can be reused for commercial or non-commercial purposes under Commission Decision 2011/833/EU, as long as you acknowledge the source and don't distort the notices.
-
-**Can I get winners and award values?**
-Yes. Set the notice stage to `award`; `winners`, `winnerCountries` and `awardValue` are filled in.
-
-**Are UK tenders included?**
-Since 2021 UK buyers publish on Find a Tender instead. Use our UK Public Tenders actor for those.
-
 ## Use with AI agents (MCP)
 
 Add `https://mcp.apify.com/?actors=devteamdrew/eu-ted-tenders` as an MCP server in Claude, Cursor or any MCP client.
 
 ## Pricing
 
-See the [Apify Store page](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=pricing) for current pay-per-result pricing.
-
-## Sample data
-
-Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/eu-ted-tenders/?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=sample-data).
+See the [Apify Store page](https://apify.com/devteamdrew/eu-ted-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders) for current pay-per-result pricing.
 
 ## More data actors
 
-- [Bluesky Scraper – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [UK Companies House Scraper – Companies & Directors](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [Hacker News Scraper – Stories, Comments & Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [npm Package Scraper – Downloads & Dependencies](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [SEC EDGAR Scraper – 10-K, 8-K & Form D Funding Filings](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [arXiv Scraper – Paper Search, Abstracts & Authors](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [UK Government Tenders Scraper – Contracts Finder, Find a Tender](https://apify.com/devteamdrew/uk-public-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [UK CQC Care Homes & Providers Scraper – Ratings & Care Leads](https://apify.com/devteamdrew/uk-cqc-care-providers?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [SAM.gov Scraper – Federal Contract Opportunities, No API Key](https://apify.com/devteamdrew/sam-gov-opportunities?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [UK Operator Licence Scraper – HGV & Bus Operators (DVSA VOL)](https://apify.com/devteamdrew/uk-operator-licences?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
-- [USAspending Federal Awards Scraper – Contracts & Grants](https://apify.com/devteamdrew/usaspending-awards?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders&utm_content=more)
+- [Bluesky Scraper – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [UK Companies House Scraper – Companies & Directors](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [Hacker News Scraper – Stories, Comments & Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [npm Package Scraper – Downloads & Dependencies](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [SEC EDGAR Scraper – 10-K, 8-K & Form D Funding Filings](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [arXiv Scraper – Paper Search, Abstracts & Authors](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [UK Government Tenders Scraper – Contracts Finder, Find a Tender](https://apify.com/devteamdrew/uk-public-tenders?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [UK CQC Care Homes & Providers Scraper – Ratings & Care Leads](https://apify.com/devteamdrew/uk-cqc-care-providers?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [SAM.gov Scraper – Federal Contract Opportunities, No API Key](https://apify.com/devteamdrew/sam-gov-opportunities?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [UK Operator Licence Scraper – HGV & Bus Operators (DVSA VOL)](https://apify.com/devteamdrew/uk-operator-licences?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
+- [USAspending Federal Awards Scraper – Contracts & Grants](https://apify.com/devteamdrew/usaspending-awards?utm_source=github&utm_medium=readme&utm_campaign=eu-ted-tenders)
 
 ## License
 
